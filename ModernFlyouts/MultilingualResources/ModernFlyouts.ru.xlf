@@ -8,19 +8,19 @@
       <group id="MODERNFLYOUTS/PROPERTIES/STRINGS.RESX" datatype="resx">
         <trans-unit id="About" translate="yes" xml:space="preserve">
           <source>About</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">О Программе</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">О приложении</target>
         </trans-unit>
         <trans-unit id="AirplaneMode.NotAvailable" translate="yes" xml:space="preserve">
           <source>Airplane Mode is not available :(</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Режим "В Самолете" недоступен :(</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Режим "В самолете" недоступен :(</target>
         </trans-unit>
         <trans-unit id="AirplaneModeOff" translate="yes" xml:space="preserve">
           <source>Airplane mode off</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Режим "В Самолете" отключен</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Режим "В самолете" отключен</target>
         </trans-unit>
         <trans-unit id="AirplaneModeOn" translate="yes" xml:space="preserve">
           <source>Airplane mode on</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Режим "В Самолете" включен</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Режим "В самолете" включен</target>
         </trans-unit>
         <trans-unit id="Align" translate="yes" xml:space="preserve">
           <source>Align to default position</source>
@@ -66,11 +66,11 @@
         </trans-unit>
         <trans-unit id="PinTopBar" translate="yes" xml:space="preserve">
           <source>Pin TopBar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Закрепить верхнюю панель</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Закрепить поверх всех окон</target>
         </trans-unit>
         <trans-unit id="PointValidationRule.PointFormatInvalidMessage" translate="yes" xml:space="preserve">
           <source>Please enter the point in the format 'X,Y' (for e.g. 50,60).</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, введите точку в формате 'X,Y' (например, 50,60).</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, введите позицию в формате 'X,Y' (например, 50,60).</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error message shown when there are problem parsing a string value into a Point</note>
         </trans-unit>
         <trans-unit id="PointValidationRule.PointOutOfRangeMessage" translate="yes" xml:space="preserve">
@@ -90,7 +90,7 @@
         </trans-unit>
         <trans-unit id="RestoreDefaultItemDescription" translate="yes" xml:space="preserve">
           <source>Restores the windows default flyout and safely quits this app</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Восстанавливает Windows Default Flyout и безопасно завершает приложение</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Восстанавливает стандартные панели Windows и безопасно закрывает приложение</target>
         </trans-unit>
         <trans-unit id="SessionControl.MoreControls" translate="yes" xml:space="preserve">
           <source>More Controls</source>
@@ -102,7 +102,7 @@
         </trans-unit>
         <trans-unit id="SessionControl.Pause" translate="yes" xml:space="preserve">
           <source>Pause</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Приостановить</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Пауза</target>
         </trans-unit>
         <trans-unit id="SessionControl.Play" translate="yes" xml:space="preserve">
           <source>Play</source>
@@ -114,23 +114,23 @@
         </trans-unit>
         <trans-unit id="SessionControl.RepeatAll" translate="yes" xml:space="preserve">
           <source>Repeat: all</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор: все</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор всех треков</target>
         </trans-unit>
         <trans-unit id="SessionControl.RepeatOff" translate="yes" xml:space="preserve">
           <source>Repeat: off</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор: выключен</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор выключен</target>
         </trans-unit>
         <trans-unit id="SessionControl.RepeatOne" translate="yes" xml:space="preserve">
           <source>Repeat: one</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор: один</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повтор одного трека</target>
         </trans-unit>
         <trans-unit id="SessionControl.ShuffleOff" translate="yes" xml:space="preserve">
           <source>Shuffle: off</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перемешать: выключено</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перемешивание выключено</target>
         </trans-unit>
         <trans-unit id="SessionControl.ShuffleOn" translate="yes" xml:space="preserve">
           <source>Shuffle: on</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перемешать: включено</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перемешивание включено</target>
         </trans-unit>
         <trans-unit id="SessionControl.Stop" translate="yes" xml:space="preserve">
           <source>Stop</source>
@@ -150,15 +150,15 @@
         </trans-unit>
         <trans-unit id="Settings.DefaultFlyout" translate="yes" xml:space="preserve">
           <source>Default Flyout</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Flyout по умолчанию</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Панель по умолчанию</target>
         </trans-unit>
         <trans-unit id="Settings.DefaultFlyoutDescription" translate="yes" xml:space="preserve">
           <source>Select the default flyout</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выберите Flyout по умолчанию</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выберите панель по умолчанию</target>
         </trans-unit>
         <trans-unit id="Settings.DefaultFlyoutWarningMessage" translate="yes" xml:space="preserve">
           <source>Choosing the Windows Default Flyout as default won't close this app. This app will still keep running in the background. Please exit this app safely to improve performance.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выбор Windows Default Flyout по умолчанию не будет закрывать это приложение. Это приложение будет по-прежнему работать в фоновом режиме. Пожалуйста, выйдете из этого приложения безопасно, чтобы улучшить производительность.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выбор стандартной панели Windows не будет закрывать это приложение. Это приложение будет по-прежнему работать в фоновом режиме. Пожалуйста, безопасно закройте это приложение, чтобы улучшить производительность системы.</target>
         </trans-unit>
         <trans-unit id="Settings.Disabled" translate="yes" xml:space="preserve">
           <source>Disabled</source>
@@ -170,11 +170,11 @@
         </trans-unit>
         <trans-unit id="Settings.FlyoutBackgroundOpacity" translate="yes" xml:space="preserve">
           <source>Flyout Background Opacity</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Непрозрачность фона Flyout</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Непрозрачность фона панели</target>
         </trans-unit>
         <trans-unit id="Settings.FlyoutDefaultPosition" translate="yes" xml:space="preserve">
           <source>Flyout Default Position (for Align button)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Позиция Flyout по умолчанию (для кнопки сброса выравнивания)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Позиция панели по умолчанию (для кнопки сброса выравнивания)</target>
         </trans-unit>
         <trans-unit id="Settings.FlyoutDefaultPositionDescription" translate="yes" xml:space="preserve">
           <source>Type the position in 'X,Y' format (for e.g. 50,60)</source>
@@ -182,7 +182,7 @@
         </trans-unit>
         <trans-unit id="Settings.FlyoutTopBar" translate="yes" xml:space="preserve">
           <source>Flyout TopBar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Верхняя панель Flyout</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Верхняя часть панели</target>
         </trans-unit>
         <trans-unit id="Settings.Modules" translate="yes" xml:space="preserve">
           <source>Modules</source>
@@ -202,23 +202,23 @@
         </trans-unit>
         <trans-unit id="Settings.Modules.LockKeys" translate="yes" xml:space="preserve">
           <source>LockKeys-flyout Module</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Модуль "Клавиши блокировки (NumLock, CapsLock, ...)"</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Модуль клавиш блокировки (NumLock, CapsLock и т. д.)"</target>
         </trans-unit>
         <trans-unit id="Settings.RunAtStartup" translate="yes" xml:space="preserve">
           <source>Run at startup</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Запускать при включении компьютера</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Запускать при старте системы</target>
         </trans-unit>
         <trans-unit id="Settings.ShowGSMTCInVolumeFlyout" translate="yes" xml:space="preserve">
           <source>Show Global System Media Transport (Media) Controls in Volume flyout</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показать главный элемент управления медиа в Flyout регулировке громкости</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показать панель управления медиа в регулировке громкости</target>
         </trans-unit>
         <trans-unit id="Settings.ShowVolumeControlInGSMTCFlyout" translate="yes" xml:space="preserve">
           <source>Show Volume control in Global System Media Transport (Media) Controls flyout</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показать элемент управления громкостью в Flyout главном элементе управления медиа</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показать регулировку громкости в панели управления медиа</target>
         </trans-unit>
         <trans-unit id="Settings.TrayIconMode" translate="yes" xml:space="preserve">
           <source>Tray Icon Mode</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отображение иконки в Tray</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отображение иконки в системном трее</target>
         </trans-unit>
         <trans-unit id="Settings.TrayIconMode.Colored" translate="yes" xml:space="preserve">
           <source>Colored</source>
@@ -242,7 +242,7 @@
         </trans-unit>
         <trans-unit id="Enums.DefaultFlyout.ModernFlyouts" translate="yes" xml:space="preserve">
           <source>ModernFlyouts</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Современныефлайуты</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ModernFlyouts</target>
         </trans-unit>
         <trans-unit id="Enums.DefaultFlyout.None" translate="yes" xml:space="preserve">
           <source>None</source>
@@ -250,7 +250,7 @@
         </trans-unit>
         <trans-unit id="Enums.DefaultFlyout.WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Windows по умолчанию</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Windows (по умолчанию)</target>
         </trans-unit>
         <trans-unit id="Enums.Orientation.Horizontal" translate="yes" xml:space="preserve">
           <source>Horizontal</source>
@@ -270,7 +270,7 @@
         </trans-unit>
         <trans-unit id="About.AppDescription" translate="yes" xml:space="preserve">
           <source>This app is designed to be a modern Fluent Design replacement for the old metro themed flyouts present in Windows since Windows 8.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Это приложение предназначено для современной замены Fluent Design для старого метро тематические вылеты присутствует в Windows с Windows 8.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Это приложение предназначено для замены медиа-панелей устаревшего дизайна Metro (Windows 8) на более современные панели, основанные на Fluent Design.</target>
         </trans-unit>
         <trans-unit id="About.Contributors" translate="yes" xml:space="preserve">
           <source>Contributors</source>
@@ -282,11 +282,11 @@
         </trans-unit>
         <trans-unit id="About.OpenNewIssue" translate="yes" xml:space="preserve">
           <source>Open a new issue</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Открыть новый выпуск</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Написать о проблеме</target>
         </trans-unit>
         <trans-unit id="About.RateAndReview" translate="yes" xml:space="preserve">
           <source>Rate and Review on Microsoft Store</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Оценить и просмотреть в Microsoft Store</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Оценить в Microsoft Store</target>
         </trans-unit>
         <trans-unit id="About.Version" translate="yes" xml:space="preserve">
           <source>Version : </source>
@@ -294,15 +294,15 @@
         </trans-unit>
         <trans-unit id="Settings.Language" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">язык</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Язык</target>
         </trans-unit>
         <trans-unit id="Settings.LanguageDescription" translate="yes" xml:space="preserve">
           <source>Please restart the app to change the language properly</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, перезапустите приложение, чтобы изменить язык должным образом</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, перезапустите приложение, чтобы изменить язык</target>
         </trans-unit>
         <trans-unit id="Settings.SystemDefault" translate="yes" xml:space="preserve">
           <source>System Default</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Системный по умолчанию</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Системный (по умолчанию)</target>
         </trans-unit>
         <trans-unit id="About.Dependencies" translate="yes" xml:space="preserve">
           <source>Dependencies</source>
@@ -310,7 +310,7 @@
         </trans-unit>
         <trans-unit id="About.FileABug" translate="yes" xml:space="preserve">
           <source>If you find any bugs, please open a new issue in the github repository.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Если вы обнаружите какие-либо ошибки, пожалуйста, откройте новую проблему в репозитории github.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Если вы обнаружите какие-либо ошибки, пожалуйста, сообщите о проблеме в репозитории GitHub.</target>
         </trans-unit>
       </group>
     </body>
